@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #1A1A1A;
+}
+.formes {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    padding: 34px;
+}
+.tittle {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 60px;
+
+    color: #FFFFFF;
+}
+.labels {
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #ffffff;
+}
+
+#buttonholder {
+    display: flex;
+    justify-content: right;
+}
+.signup {
+    background: #A7A7A7;
+    border: #A7A7A7;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+button a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+button a:hover {
+    color: #FFFFFF;
+}
+.confirmbutton:hover {
+    background: #355888;
+    transition: all 0.2s ease;
+}
+.signup:hover {
+    background: #575757;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.confirmbutton {
+    background: #5693EF;
+    border: #5693EF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#last {
+    margin-top: 50px;
+}
+input {
+    background: #232323;
+    border: 1px solid #373737;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+input:focus {
+    border: #FFFFFF;
+}
+.date {
+    opacity: 0;
+}

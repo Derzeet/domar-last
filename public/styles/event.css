@@ -1,0 +1,36 @@
+.modal-content {
+    background-color: #1A1A1A;
+}
+.btn-close {
+    color: #FFFFFF;
+}
+.tittle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+.labels {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.modal-content {
+    display: flex;
+    right: auto;
+    left: auto;
+    margin-top: 200px;
+}
+.modal-content input {
+    background-color: #232323;
+    border-radius: 3px;
+    border: 1px solid #373737;
+    color: #FFFFFF;
+}
